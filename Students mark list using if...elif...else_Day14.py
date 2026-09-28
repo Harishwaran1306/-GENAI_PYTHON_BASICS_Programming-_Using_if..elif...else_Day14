@@ -210,7 +210,7 @@ print(f'Total Passed Subjects = {pass_count}')
 print(f'Total Failed Subjects = {fail_count}')
 
 
-if ('fail_count>0'):
+if fail_count>0:
     print('Result = Fail')
 else:
     print('Result = Pass')
